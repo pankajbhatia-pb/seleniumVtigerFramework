@@ -5,11 +5,10 @@ import org.openqa.selenium.support.FindBy;
 
 import com.crm.genericLib.BaseClass;
 
-
-
-public class Login extends BaseClass{
+public class Login extends BaseClass {
 	/* Initialization */
 	/* We are identifying webElement here */
+
 	@FindBy(name = "user_name")
 	private WebElement userNameWbEle;
 
